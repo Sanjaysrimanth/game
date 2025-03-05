@@ -1,0 +1,22 @@
+{
+  "name": "my-game",
+  "version": "1.0.0",
+  "description": "A browser-based RPG game where players can create characters and explore a world filled with monsters, dungeons, and cities.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "game",
+    "rpg",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

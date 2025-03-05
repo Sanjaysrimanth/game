@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Game</h1>
+    </header>
+    <main>
+        <section id="character-creation">
+            <h2>Create Your Character</h2>
+            <form id="character-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                
+                <label for="class">Class:</label>
+                <select id="class">
+                    <option value="warrior">Warrior</option>
+                    <option value="healer">Healer</option>
+                    <option value="tank">Tank</option>
+                    <option value="archer">Archer</option>
+                    <option value="assassin">Assassin</option>
+                </select>
+                
+                <button type="submit">Create Character</button>
+            </form>
+        </section>
+        
+        <section id="status-panel">
+            <h2>Status Panel</h2>
+            <div id="character-stats">
+                <!-- Character stats will be displayed here -->
+            </div>
+        </section>
+        
+        <section id="game-world">
+            <h2>Game World</h2>
+            <div id="world-map">
+                <!-- Game world elements like monsters, dungeons, and cities will be displayed here -->
+            </div>
+        </section>
+    </main>
+    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/character.js"></script>
+    <script src="scripts/game.js"></script>
+</body>
+</html>
